@@ -51,14 +51,6 @@ def create_styled_markdown(label, value):
     <div class="current-value">{value}</div>
     """
 
-# Set up basic configuration
-st.set_page_config(
-    page_title="Sistem Prediksi Cuaca",
-    page_icon="https://psikologi.unj.ac.id/wp-content/uploads/2020/10/Logo.png",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
-
 # Header Title
 st.title("Sistem Prediksi Cuaca")
 
